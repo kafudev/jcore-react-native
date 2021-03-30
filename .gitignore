@@ -10,3 +10,5 @@ build-res/
 *.log
 .qshell
 *.qshell
+.env
+.npmrc

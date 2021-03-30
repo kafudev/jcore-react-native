@@ -1,15 +1,31 @@
 {
-  "name"       : "jcore-react-native",
+  "name"       : "@kafudev/jcore-react-native",
   "description": "React Native JCore component for Android and iOS",
-  "homepage"   : "https://github.com/jpush/jcore-react-native",
+  "homepage"   : "https://github.com/kafudev/jcore-react-native",
   "author"     : "wicked.tc130",
   "license"    : "ISC",
   "main"       : "index.js",
-  "version"    : "1.9.1",
+  "version"    : "2.0.2",
   "repository" : {
     "type": "git",
-    "url": "https://github.com/jpush/jcore-react-native"
+    "url": "https://github.com/kafudev/jcore-react-native"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "ios",
+    "JPush.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
   "keywords"   : [
     "react-native",
     "jiguang",
